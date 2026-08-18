@@ -2,7 +2,7 @@ import { defineConfig, loadEnv, type Plugin } from "vite";
 import react from "@vitejs/plugin-react-swc";
 import path from "path";
 import { componentTagger } from "lovable-tagger";
-import { askKowalski } from "./api/_lib/kowalski";
+import { askKowalski } from "./api/chat";
 
 // En desarrollo no existe Vercel, así que servimos /api/chat desde el propio
 // servidor de Vite reutilizando la misma lógica que la función serverless.
