@@ -19,7 +19,7 @@ const Hero = () => {
           transition={{ duration: 0.8, delay: 0.15 }}
           className={`text-xs md:text-sm font-medium tracking-[0.3em] uppercase mb-8 ${isDark ? 'text-[#a8c0d8]' : 'text-[#4a6fa5]'}`}
         >
-          AntarcTIC LAB · Consultoría de Automatización e IA
+          Antarctic Lab · Ciberseguridad Ofensiva
         </motion.div>
 
         {/* Main Title */}
@@ -29,8 +29,8 @@ const Hero = () => {
           transition={{ duration: 1, delay: 0.3, ease: [0.25, 0.46, 0.45, 0.94] }}
           className={`text-[clamp(2.2rem,6vw,4.5rem)] font-light tracking-[-0.02em] leading-[1.05] mb-8 transition-colors duration-500 ${isDark ? 'text-white' : 'text-[#1a1a2e]'}`}
         >
-          Automatizamos tu negocio para que{" "}
-          <span className="font-medium">recuperes el control de tu tiempo.</span>
+          Blindaje Digital y Ciberseguridad Ofensiva para{" "}
+          <span className="font-medium">Pymes y Centros Médicos.</span>
         </motion.h1>
 
         {/* Subtitle */}
@@ -40,8 +40,7 @@ const Hero = () => {
           transition={{ duration: 1, delay: 0.6, ease: [0.25, 0.46, 0.45, 0.94] }}
           className={`text-[clamp(1rem,2vw,1.25rem)] font-light leading-relaxed max-w-3xl mx-auto mb-12 transition-colors duration-500 ${isDark ? 'text-[#8a9aaa]' : 'text-[#5a6a7a]'}`}
         >
-          Consultoría técnica en la Cerdanya para eliminar tareas repetitivas y
-          escalar tus beneficios con Inteligencia Artificial.
+          Evita multas de la AEPD, brechas de datos y ataques de suplantación antes de que ocurran.
         </motion.p>
 
         {/* CTA */}
@@ -59,7 +58,7 @@ const Hero = () => {
                 : 'text-[#1a1a2e] border-[#1a1a2e]/20 hover:border-[#1a1a2e]/40'
             }`}
           >
-            <span className="relative z-10">Solicitar Auditoría Gratuita</span>
+            <span className="relative z-10">Solicitar Auditoría de Superficie Gratuita</span>
             <div className={`absolute inset-0 translate-y-full group-hover:translate-y-0 transition-transform duration-500 ${isDark ? 'bg-white/5' : 'bg-[#1a1a2e]/5'}`} />
           </a>
           <a
@@ -70,7 +69,7 @@ const Hero = () => {
                 : 'text-[#7a8a9a] hover:text-[#1a1a2e]'
             }`}
           >
-            Hablar con un Consultor
+            Hablar con un Experto
             <svg
               className="ml-3 w-4 h-4"
               fill="none"
@@ -94,9 +93,9 @@ const Hero = () => {
           transition={{ duration: 1, delay: 1.3 }}
           className={`mt-12 flex flex-wrap items-center justify-center gap-x-8 gap-y-3 text-xs md:text-sm font-light ${isDark ? 'text-[#7a8a9a]' : 'text-[#6a7a8a]'}`}
         >
-          <li>Ahorro medio de 10-20 h/mes</li>
-          <li>Eficiencia operativa medible</li>
-          <li>Retorno de inversión en semanas</li>
+          <li>Detección proactiva de vulnerabilidades</li>
+          <li>Cumplimiento normativo AEPD</li>
+          <li>Protección contra suplantación</li>
         </motion.ul>
       </div>
 

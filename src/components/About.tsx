@@ -2,9 +2,9 @@ import { motion } from "framer-motion";
 
 const values = [
   {
-    title: "Resultados medibles",
+    title: "Enfoque proactivo",
     description:
-      "Cada proyecto arranca con una cifra: horas que ahorras, costes que reduces, clientes que dejas de perder.",
+      "Detectamos los fallos antes de que los ciberdelincuentes los usen en vuestra contra. No esperamos al incidente.",
   },
   {
     title: "Cercanía",
@@ -12,9 +12,9 @@ const values = [
       "Consultoría en la Cerdanya, con trato directo. Hablamos tu idioma, no el de los tecnicismos.",
   },
   {
-    title: "Elegancia y claridad",
+    title: "Transparencia total",
     description:
-      "Soluciones simples de usar y fáciles de mantener. Si tu equipo no lo entiende, no sirve.",
+      "Informes claros, sin sorpresas. Sabes exactamente qué protegemos, cómo y por qué.",
   },
 ];
 
@@ -35,19 +35,14 @@ const About = () => {
               Nosotros
             </span>
             <h2 className="text-3xl md:text-5xl font-semibold tracking-tight mb-8">
-              Consultoría técnica{" "}
-              <span className="text-ice">con los pies en el suelo</span>
+              Ciberseguridad{" "}
+              <span className="text-ice">con enfoque ofensivo</span>
             </h2>
             <p className="text-lg text-primary-foreground/80 leading-relaxed mb-8">
-              Antarctic Lab es una consultora de automatización e inteligencia
-              artificial para negocios locales: inmobiliarias, clínicas, hoteles
-              boutique y restauración de la Cerdanya y alrededores.
+              Antarctic Lab es una consultora de ciberseguridad ofensiva para pymes y centros médicos de la Cerdanya y alrededores.
             </p>
             <p className="text-lg text-primary-foreground/80 leading-relaxed">
-              Nuestro trabajo es sencillo de explicar: identificamos las tareas
-              que consumen el tiempo de tu equipo, las automatizamos y te
-              devolvemos horas cada semana. Con un plan claro, un coste cerrado
-              y un retorno de inversión que puedes calcular desde el primer día.
+              Nuestro trabajo es sencillo de explicar: analizamos tu superficie de ataque, identificamos vulnerabilidades antes de que los atacantes las encuentren, y blindamos tu infraestructura. Con un plan claro, un coste cerrado y tranquilidad garantizada.
             </p>
 
           </motion.div>

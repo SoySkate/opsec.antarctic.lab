@@ -4,20 +4,20 @@ import { Search, Code, Rocket } from "lucide-react";
 const steps = [
   {
     number: "01",
-    title: "Diagnóstico",
-    description: "Analizamos tu operativa y medimos cuántas horas y euros consumen tus tareas repetitivas.",
+    title: "Análisis de Superficie",
+    description: "Escaneamos tu infraestructura digital para identificar vulnerabilidades visibles y puntos de entrada potenciales.",
     icon: Search,
   },
   {
     number: "02",
-    title: "Implantación",
-    description: "Automatizamos los procesos de mayor impacto e integramos la IA con tus herramientas actuales.",
+    title: "Blindaje y Remediación",
+    description: "Aplicamos parches de seguridad, configuramos protecciones y cerramos las vulnerabilidades detectadas.",
     icon: Code,
   },
   {
     number: "03",
-    title: "Medición y mejora",
-    description: "Formamos a tu equipo, medimos las horas ahorradas y ajustamos para maximizar el retorno.",
+    title: "Monitorización Continua",
+    description: "Implementamos alertas 24/7, verificamos el cumplimiento normativo y ajustamos las defensas ante nuevas amenazas.",
     icon: Rocket,
   },
 ];
@@ -37,7 +37,7 @@ const Methodology = () => {
             Nuestra Metodología
           </p>
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-light tracking-tight">
-            Tres pasos, resultados medibles
+            Tres pasos, protección garantizada
           </h2>
         </motion.div>
 

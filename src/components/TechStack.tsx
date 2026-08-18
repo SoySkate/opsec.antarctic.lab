@@ -1,12 +1,12 @@
 import { motion } from "framer-motion";
 
 const technologies = [
-  { name: "React", logo: "⚛️" },
-  { name: "Next.js", logo: "▲" },
-  { name: "Tailwind CSS", logo: "🎨" },
-  { name: "Vercel", logo: "▲" },
-  { name: "OpenAI", logo: "🤖" },
-  { name: "Supabase", logo: "⚡" },
+  { name: "Nmap", logo: "🔍" },
+  { name: "Burp Suite", logo: "🛡️" },
+  { name: "Metasploit", logo: "⚔️" },
+  { name: "Wireshark", logo: "📡" },
+  { name: "OpenVAS", logo: "🔒" },
+  { name: "OSINT", logo: "🌐" },
 ];
 
 const TechStack = () => {
@@ -21,7 +21,7 @@ const TechStack = () => {
           className="text-center mb-10"
         >
           <p className="text-xs uppercase tracking-[0.4em] text-muted-foreground">
-            Tecnologías que utilizamos
+            Herramientas de ciberseguridad
           </p>
         </motion.div>
 

@@ -6,28 +6,28 @@ const services = [
   {
     option: "01",
     icon: Workflow,
-    title: "Automatización de Procesos y Agentes de IA",
-    codename: "SERVICIO PRINCIPAL",
+    title: "Auditoría Táctica B2B",
+    codename: "DIAGNÓSTICO ÚNICO",
     description:
-      "Eliminamos las tareas repetitivas de tu equipo: reservas, presupuestos, facturas, seguimiento de clientes y atención 24/7 con agentes de IA. Menos horas administrativas, más margen.",
+      "Análisis exhaustivo de infraestructura, fugas de datos y cumplimiento normativo. Identificamos vulnerabilidades antes de que los atacantes las exploten.",
     status: "DISPONIBLE",
   },
   {
     option: "02",
     icon: Briefcase,
-    title: "Consultoría Técnica B2B",
-    codename: "ESTRATEGIA Y ROI",
+    title: "Blindaje y Mantenimiento Continuo",
+    codename: "CUOTA MENSUAL",
     description:
-      "Analizamos tu operativa, detectamos dónde pierdes tiempo y dinero, y diseñamos un plan de eficiencia con prioridades claras, costes y retorno de inversión estimado.",
+      "Parcheo de seguridad, monitorización 24/7 y copias de seguridad aisladas. Protección activa contra brechas y ataques de suplantación.",
     status: "DISPONIBLE",
   },
   {
     option: "03",
     icon: Palette,
-    title: "Diseño Web y Contenido Dinámico",
+    title: "Consultoría de Cumplimiento AEPD",
     codename: "SERVICIOS COMPLEMENTARIOS",
     description:
-      "El soporte técnico de todo lo anterior: webs rápidas y profesionales, cartas y catálogos actualizables por ti mismo, y presencia digital que convierte visitas en clientes.",
+      "Adaptación de infraestructura y procesos a la normativa de protección de datos. Documentación, auditorías y planes de acción para evitar multas.",
     status: "COMPLEMENTARIO",
   },
 ];
@@ -35,26 +35,26 @@ const services = [
 const plans = [
   {
     icon: Snowflake,
-    name: "Plan Diagnóstico",
+    name: "Auditoría de Superficie",
     type: "Punto de partida",
-    description: "Para saber exactamente dónde estás perdiendo horas. Auditoría de procesos y hoja de ruta priorizada.",
-    features: ["Auditoría operativa", "Mapa de tareas automatizables", "Estimación de horas ahorradas", "Informe con ROI previsto"],
+    description: "Análisis rápido de tu exposición digital. Identificamos vulnerabilidades visibles y puntos de entrada potenciales.",
+    features: ["Escaneo de puertos y servicios", "Análisis de fugas de datos", "Verificación de configuraciones", "Informe ejecutivo"],
     highlight: false,
   },
   {
     icon: Rocket,
-    name: "Plan Eficiencia",
-    type: "Automatización aplicada",
-    description: "Nuestro plan más contratado. Implantamos las automatizaciones de mayor impacto en tu día a día.",
-    features: ["Todo del Plan Diagnóstico", "Automatización de 3-5 procesos", "Agente de IA de atención al cliente", "Integración con tus herramientas", "Formación al equipo"],
+    name: "Auditoría Completa",
+    type: "Diagnóstico profundo",
+    description: "Nuestro servicio más completo. Análisis exhaustivo de toda tu infraestructura y plan de remediación priorizado.",
+    features: ["Todo del Auditoría de Superficie", "Pentesting interno y externo", "Análisis de cumplimiento AEPD", "Plan de acción detallado", "Reunión de presentación"],
     highlight: true,
   },
   {
     icon: Building2,
-    name: "Plan Escalado",
-    type: "Software a medida",
-    description: "Para negocios con operativa compleja que necesitan una solución propia y acompañamiento continuo.",
-    features: ["Desarrollo full-stack a medida", "Integraciones API y CRM", "Panel de métricas operativas", "Mantenimiento y mejora continua", "Consultor asignado"],
+    name: "Blindaje Continuo",
+    type: "Protección 24/7",
+    description: "Mantenimiento y parcheo continuo. Monitorización activa y respuesta ante incidentes.",
+    features: ["Parcheo de seguridad mensual", "Monitorización 24/7", "Copias de seguridad aisladas", "Respuesta a incidentes", "Informe trimestral"],
     highlight: false,
   },
 ];
@@ -62,26 +62,26 @@ const plans = [
 const marketingPlans = [
   {
     icon: Megaphone,
-    name: "Plan Visibilidad",
-    type: "Presencia local",
-    description: "Para negocios que necesitan que les encuentren en la Cerdanya. Posicionamiento local y contenido constante.",
-    features: ["Gestión de 2 redes sociales", "SEO local (Google Maps)", "Contenido asistido por IA", "Informe mensual de resultados"],
+    name: "Plan Básico",
+    type: "Protección esencial",
+    description: "Para pymes que necesitan cumplir con la normativa básica de protección de datos.",
+    features: ["Adaptación a AEPD", "Política de privacidad", "Registro de actividades", "Formación básica"],
     highlight: false,
   },
   {
     icon: Brain,
-    name: "Plan Captación",
-    type: "Generación de clientes",
-    description: "Tu motor de ventas: campañas de publicidad medidas y páginas diseñadas para convertir.",
-    features: ["Todo del Plan Visibilidad", "Campañas Meta y Google Ads", "Landing page de conversión", "Chatbot de atención 24/7", "Test A/B de anuncios"],
+    name: "Plan Avanzado",
+    type: "Ciberseguridad activa",
+    description: "Protección completa para empresas con datos sensibles. Monitorización y respuesta.",
+    features: ["Todo del Plan Básico", "Monitorización 24/7", "Análisis de vulnerabilidades", "Plan de respuesta", "Soporte prioritario"],
     highlight: true,
   },
   {
     icon: Terminal,
-    name: "Plan Liderazgo",
-    type: "IA aplicada al crecimiento",
-    description: "Para empresas que quieren ser la referencia de su sector apoyándose en la tecnología más actual.",
-    features: ["Todo del Plan Captación", "Modelo de IA personalizado", "Automatización del CRM", "GEO (visibilidad en ChatGPT)", "Consultoría estratégica periódica"],
+    name: "Plan Enterprise",
+    type: "Protección integral",
+    description: "Para centros médicos y empresas con requisitos de seguridad críticos.",
+    features: ["Todo del Plan Avanzado", "Pentesting trimestral", "Auditoría ISO 27001", "Consultor dedicado", "SLA garantizado"],
     highlight: false,
   },
 ];
@@ -136,12 +136,10 @@ const Services = () => {
             <span>Servicios</span>
           </div>
           <h2 className="text-3xl md:text-5xl font-semibold tracking-tight mb-6">
-            Cómo te ayudamos a ganar tiempo y margen
+            Cómo protegemos tu negocio digital
           </h2>
           <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
-            Primero entendemos tu operativa, después automatizamos lo que te
-            frena. Todo con objetivos medibles: horas ahorradas, costes
-            reducidos y retorno de inversión.
+            Primero analizamos tu exposición, después blindamos tus puntos críticos. Todo con objetivos medibles: vulnerabilidades cerradas, cumplimiento normativo y reducción de riesgo.
           </p>
 
         </motion.div>
@@ -217,7 +215,7 @@ const Services = () => {
                 activeTab === 'tech' ? 'bg-ice text-background' : 'hover:text-ice'
               }`}
             >
-              Automatización y Tecnología
+              Auditoría y Blindaje
             </button>
             <button
               onClick={() => setActiveTab('marketing')}
@@ -225,7 +223,7 @@ const Services = () => {
                 activeTab === 'marketing' ? 'bg-ice text-background' : 'hover:text-ice'
               }`}
             >
-              Crecimiento y Captación
+              Planes de Protección
             </button>
           </div>
         </motion.div>
@@ -239,10 +237,10 @@ const Services = () => {
           className="text-center mb-12"
         >
           <div className="text-[10px] text-ice tracking-[0.3em] uppercase mb-3">
-            {activeTab === 'tech' ? 'Niveles de servicio' : 'Niveles de crecimiento'}
+            {activeTab === 'tech' ? 'Niveles de auditoría' : 'Niveles de protección'}
           </div>
           <h3 className="text-2xl md:text-3xl font-semibold tracking-tight">
-            {activeTab === 'tech' ? 'Elige tu plan de eficiencia' : 'Elige tu plan de crecimiento'}
+            {activeTab === 'tech' ? 'Elige tu nivel de análisis' : 'Elige tu plan de protección'}
           </h3>
         </motion.div>
 
@@ -339,22 +337,17 @@ const Services = () => {
                 Nuestra forma de trabajar
               </div>
               <h3 className="text-2xl md:text-3xl font-semibold tracking-tight mb-4">
-                Análisis primero, tecnología después
+                Enfoque proactivo, no reactivo
               </h3>
               <div className="space-y-4 text-muted-foreground leading-relaxed">
                 <p>
-                  <span className="text-foreground font-medium">Empezamos por los números:</span> cuántas
-                  horas dedica tu equipo a cada tarea, qué cuesta cada proceso y dónde se pierde
-                  dinero. Sin ese diagnóstico, automatizar es gastar sin saber por qué.
+                  <span className="text-foreground font-medium">Detectamos antes que remediamos:</span> analizamos tu superficie de ataque continuamente para encontrar fallos antes de que los ciberdelincuentes los exploten.
                 </p>
                 <p>
-                  <span className="text-foreground font-medium">Implantamos por fases:</span> primero
-                  lo que da retorno rápido, después lo estructural. Tú siempre sabes qué se está
-                  haciendo, cuánto cuesta y qué vas a recuperar.
+                  <span className="text-foreground font-medium">Blindaje por capas:</span> seguridad perimetral, protección de endpoints, cifrado de datos y formación del equipo. Cada capa reduce el riesgo.
                 </p>
                 <p className="text-ice text-sm pt-2 font-medium">
-                  El resultado: menos horas administrativas, decisiones con datos y un negocio que
-                  funciona sin depender de ti para todo.
+                  El resultado: cumplimiento normativo garantizado, reducción drástica del riesgo de brecha y tranquilidad operativa.
                 </p>
               </div>
             </div>
