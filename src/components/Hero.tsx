@@ -30,7 +30,7 @@ const Hero = () => {
           className={`text-[clamp(2.2rem,6vw,4.5rem)] font-light tracking-[-0.02em] leading-[1.05] mb-8 transition-colors duration-500 ${isDark ? 'text-white' : 'text-[#1a1a2e]'}`}
         >
           Blindaje Digital y Ciberseguridad Ofensiva para{" "}
-          <span className="font-medium">Pymes y Centros Médicos.</span>
+          <span className="font-medium">empresas.</span>
         </motion.h1>
 
         {/* Subtitle */}

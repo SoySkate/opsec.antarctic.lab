@@ -39,7 +39,7 @@ const About = () => {
               <span className="text-ice">con enfoque ofensivo</span>
             </h2>
             <p className="text-lg text-primary-foreground/80 leading-relaxed mb-8">
-              Antarctic Lab es una consultora de ciberseguridad ofensiva para pymes y centros médicos de la Cerdanya y alrededores.
+              Antarctic Lab es una consultora de ciberseguridad ofensiva para empresas de la Cerdanya y alrededores.
             </p>
             <p className="text-lg text-primary-foreground/80 leading-relaxed">
               Nuestro trabajo es sencillo de explicar: analizamos tu superficie de ataque, identificamos vulnerabilidades antes de que los atacantes las encuentren, y blindamos tu infraestructura. Con un plan claro, un coste cerrado y tranquilidad garantizada.
