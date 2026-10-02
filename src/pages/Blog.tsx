@@ -10,9 +10,9 @@ const Blog = () => {
   return (
     <main className="min-h-screen bg-background">
       <Helmet>
-        <title>Blog | AntarcticLab — Inteligencia digital para tu negocio</title>
-        <meta name="description" content="Artículos, guías y análisis sobre ciberseguridad, desarrollo web y estrategia digital. Aprende a proteger tu negocio online." />
-        <link rel="canonical" href="https://antarcticlab.dev/blog" />
+        <title>Blog de Ciberseguridad & OpSec | AntarcticLab</title>
+        <meta name="description" content="Artículos técnicos, análisis de amenazas, pentesting y guías de blindaje digital y OpSec para proteger los activos críticos de tu empresa." />
+        <link rel="canonical" href="https://opsec.antarcticlab.dev/blog" />
       </Helmet>
       <Navbar />
 
@@ -25,13 +25,13 @@ const Blog = () => {
             className="text-center mb-16"
           >
             <span className="text-ice text-sm font-mono tracking-widest uppercase">
-              Blog
+              Blog & Ciberinteligencia
             </span>
             <h1 className="text-4xl md:text-5xl font-bold mt-4 text-foreground">
-              Inteligencia digital para tu negocio
+              Ciberseguridad Ofensiva & OpSec
             </h1>
             <p className="text-muted-foreground mt-4 max-w-2xl mx-auto">
-              Artículos, guías y análisis sobre tecnología, desarrollo web y estrategia digital.
+              Investigaciones técnicas, análisis de vectores de ataque y estrategias de blindaje digital para empresas.
             </p>
           </motion.div>
 

@@ -88,7 +88,7 @@ const BlogPost = () => {
     );
   }
 
-  const canonicalUrl = `https://antarcticlab.dev/blog/${post.slug}`;
+  const canonicalUrl = `https://opsec.antarcticlab.dev/blog/${post.slug}`;
 
   const jsonLd = {
     "@context": "https://schema.org",
@@ -101,12 +101,12 @@ const BlogPost = () => {
     author: {
       "@type": "Organization",
       name: "AntarcticLab",
-      url: "https://antarcticlab.dev",
+      url: "https://opsec.antarcticlab.dev",
     },
     publisher: {
       "@type": "Organization",
       name: "AntarcticLab",
-      url: "https://antarcticlab.dev",
+      url: "https://opsec.antarcticlab.dev",
     },
     mainEntityOfPage: {
       "@type": "WebPage",
