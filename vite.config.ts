@@ -4,9 +4,8 @@ import path from "path";
 import { componentTagger } from "lovable-tagger";
 import { askKowalski } from "./api/chat";
 
-// En desarrollo no existe Vercel, así que servimos /api/chat desde el propio
-// servidor de Vite reutilizando la misma lógica que la función serverless.
-function devApiChat(geminiKey: string | undefined): Plugin {
+// En desarrollo servimos /api/chat desde Vite reutilizando askKowalski con Groq.
+function devApiChat(): Plugin {
   return {
     name: "dev-api-chat",
     configureServer(server) {
@@ -16,15 +15,11 @@ function devApiChat(geminiKey: string | undefined): Plugin {
           return res.end();
         }
         res.setHeader("Content-Type", "application/json");
-        if (!geminiKey) {
-          res.statusCode = 500;
-          return res.end(JSON.stringify({ error: "GEMINI_API_KEY no configurada en .env" }));
-        }
         let raw = "";
         for await (const chunk of req) raw += chunk;
         try {
           const body = JSON.parse(raw || "{}");
-          const text = await askKowalski(Array.isArray(body.history) ? body.history : [], geminiKey);
+          const text = await askKowalski(Array.isArray(body.history) ? body.history : []);
           res.end(JSON.stringify({ text }));
         } catch (err) {
           console.error("[dev-api-chat]", err);
@@ -38,8 +33,10 @@ function devApiChat(geminiKey: string | undefined): Plugin {
 
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => {
-  // Prefijo "" para poder leer variables sin VITE_ (la key nunca llega al bundle).
   const env = loadEnv(mode, process.cwd(), "");
+  if (env.GROQ_API_KEY) process.env.GROQ_API_KEY = env.GROQ_API_KEY;
+  if (env.GROQ_API_KEY_FALLBACK) process.env.GROQ_API_KEY_FALLBACK = env.GROQ_API_KEY_FALLBACK;
+
   return {
     server: {
       host: "::",
@@ -48,7 +45,7 @@ export default defineConfig(({ mode }) => {
     plugins: [
       react(),
       mode === "development" && componentTagger(),
-      mode === "development" && devApiChat(env.GEMINI_API_KEY),
+      mode === "development" && devApiChat(),
     ].filter(Boolean),
     resolve: {
       alias: {
