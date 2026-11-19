@@ -40,7 +40,7 @@ const AvisoLegal = () => {
                 </p>
                 <ul className="list-disc list-inside text-muted-foreground space-y-2 mt-4">
                   <li><strong className="text-foreground">Titular:</strong> Andreu Martín</li>
-                  <li><strong className="text-foreground">Email de contacto:</strong> antarctic.lab26@gmail.com</li>
+                  <li><strong className="text-foreground">Email de contacto:</strong> seguridad@antarcticlab.dev</li>
                   <li><strong className="text-foreground">Actividad:</strong> Servicios de desarrollo web y consultoría tecnológica</li>
                 </ul>
                 <p className="text-muted-foreground leading-relaxed mt-4">

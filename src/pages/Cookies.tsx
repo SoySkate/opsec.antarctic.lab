@@ -152,10 +152,10 @@ const Cookies = () => {
                 <p className="text-muted-foreground leading-relaxed">
                   Si tienes alguna pregunta sobre nuestra política de cookies, puedes contactarnos en{" "}
                   <a 
-                    href="mailto:antarctic.lab26@gmail.com" 
+                    href="mailto:seguridad@antarcticlab.dev" 
                     className="text-ice hover:underline"
                   >
-                    antarctic.lab26@gmail.com
+                    seguridad@antarcticlab.dev
                   </a>
                 </p>
               </section>

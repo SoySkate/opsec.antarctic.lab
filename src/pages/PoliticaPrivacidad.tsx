@@ -36,7 +36,7 @@ const PoliticaPrivacidad = () => {
                 <ul className="list-disc list-inside text-muted-foreground space-y-2">
                   <li><strong className="text-foreground">Responsable:</strong> Andreu Martín</li>
                   <li><strong className="text-foreground">Marca comercial:</strong> AntarcTIC Lab</li>
-                  <li><strong className="text-foreground">Email de contacto:</strong> antarctic.lab26@gmail.com</li>
+                  <li><strong className="text-foreground">Email de contacto:</strong> seguridad@antarcticlab.dev</li>
                 </ul>
               </section>
 
@@ -110,10 +110,10 @@ const PoliticaPrivacidad = () => {
                 <p className="text-muted-foreground leading-relaxed mt-4">
                   Para ejercer cualquiera de estos derechos, puedes escribirnos a{" "}
                   <a 
-                    href="mailto:antarctic.lab26@gmail.com" 
+                    href="mailto:seguridad@antarcticlab.dev" 
                     className="text-ice hover:underline"
                   >
-                    antarctic.lab26@gmail.com
+                    seguridad@antarcticlab.dev
                   </a>
                 </p>
               </section>
