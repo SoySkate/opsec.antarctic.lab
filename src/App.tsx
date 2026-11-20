@@ -13,6 +13,7 @@ import Blog from "./pages/Blog";
 import Labs from "./pages/Labs";
 import BlogPost from "./pages/BlogPost";
 import ChatKowalski from "./components/ChatKowalski";
+import CookieBanner from "./components/CookieBanner";
 import GlobalParticles from "./components/GlobalParticles";
 
 const queryClient = new QueryClient();
@@ -36,6 +37,7 @@ const App = () => (
             {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
             <Route path="*" element={<NotFound />} />
           </Routes>
+          <CookieBanner />
         </BrowserRouter>
         <ChatKowalski />
       </TooltipProvider>
