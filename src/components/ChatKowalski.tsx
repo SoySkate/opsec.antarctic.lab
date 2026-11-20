@@ -3,9 +3,9 @@ import pinguKowalski from '../assets/pinguKowalski.jpg';
 
 type Msg = { role: 'user' | 'ai'; text: string };
 
-const PHONE_DISPLAY = '654 101 013';
-const PHONE_TEL = 'tel:+34654101013';
-const WHATSAPP_BASE = 'https://wa.me/34654101013';
+const PHONE_DISPLAY = '672 869 472';
+const PHONE_TEL = 'tel:+34672869472';
+const WHATSAPP_BASE = 'https://wa.me/34672869472';
 const MAX_HISTORY = 8;
 
 const WELCOME: Msg = {

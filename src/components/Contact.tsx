@@ -117,10 +117,10 @@ const Contact = () => {
                 <div>
                   <p className="text-sm text-muted-foreground">Teléfono</p>
                   <a
-                    href="tel:+34654101013"
+                    href="tel:+34672869472"
                     className="text-foreground hover:text-ice transition-colors"
                   >
-                    +34 654 10 10 13
+                    +34 672 86 94 72
                   </a>
                 </div>
               </div>
